@@ -1,0 +1,54 @@
+.container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.card .card__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card .card__img img {
+  border-radius: 50%;
+  margin: 0 auto 20px auto;
+  text-align: center;
+}
+
+.card__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card__btn .btn {
+  padding: 15px;
+  border-radius: 0;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.male {
+  background-color: #3D75A7;
+  border: 5px solid #3D75A7;
+}
+
+.female {
+  background-color: #FEB8C6;
+  border: 5px solid #FEB8C6;
+}
+/*# sourceMappingURL=card.css.map */

@@ -1,0 +1,25 @@
+.divider {
+  width: 60px;
+  height: 2px;
+}
+
+.divider--centered {
+  margin: 0 auto;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.hidden-sm {
+  display: none;
+}
+
+.centered {
+  margin: 0 auto;
+}
+/*# sourceMappingURL=utilities.css.map */
