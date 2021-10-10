@@ -1,0 +1,64 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+body.lock {
+  overflow: hidden;
+}
+
+body.opened .mobile-menu-overlay {
+  display: block;
+}
+
+body.opened .mobile-menu {
+  right: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*
+h1 {
+  font-size: 56px;
+  font-weight: 700;
+  font-family: $primary-font;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: $primary-font;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: 700;
+  font-family: $primary-font;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: $primary-font;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+h6 {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}*/
+/*# sourceMappingURL=base.css.map */

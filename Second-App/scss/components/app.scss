@@ -1,0 +1,55 @@
+@import "../base/variables";
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+
+.app{
+  width: 600px;
+
+  .app__header{
+    margin-bottom: 50px;
+    padding: 30px 200px !important;
+    border-radius: 15px;
+    color: white;
+    background-color: $male-color;
+  }
+  
+
+
+  .app__body {
+
+    .app__body--title{
+      margin-bottom: 50px;
+      padding: 10px 50px !important;
+      border-radius: 15px;
+      color: black;
+      background-color: $female-color;
+    }
+
+
+    button{
+      font-size: .75em; 
+      font-size: 20px;
+      border: none;
+      display: inline-block;
+      padding: 10px;
+      margin: 0 50px 50px 0;
+    }
+
+    p{
+      font-size: 25px;
+      font-weight: bold;
+      background-color: #198754;
+      border-radius: 5px;
+      padding: 5px;
+    }
+  }
+}
+
+
+
